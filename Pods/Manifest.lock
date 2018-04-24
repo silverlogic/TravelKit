@@ -1,0 +1,160 @@
+PODS:
+  - Alamofire (4.7.2)
+  - AlamofireActivityLogger (2.4.0):
+    - Alamofire (~> 4.5)
+  - AlamofireCoreData (1.1.0):
+    - Alamofire (~> 4.5)
+    - Groot (~> 2.0)
+  - AlamofireNetworkActivityIndicator (2.2.1):
+    - Alamofire (~> 4.7)
+  - Branch (0.24.2):
+    - Branch/Core (= 0.24.2)
+  - Branch/Core (0.24.2)
+  - CCBottomRefreshControl (0.5.2)
+  - Crashlytics (3.10.1):
+    - Fabric (~> 1.7.5)
+  - Dodo (9.0.1)
+  - Fabric (1.7.6)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - Groot (2.0):
+    - Groot/Swift (= 2.0)
+  - Groot/Swift (2.0)
+  - ImagePicker (3.0.0)
+  - IQKeyboardManager (6.0.2)
+  - KeychainAccess (3.1.1)
+  - KIF (3.7.3):
+    - KIF/Core (= 3.7.3)
+  - KIF/Core (3.7.3)
+  - Kingfisher (4.1.1)
+  - KYNavigationProgress (2.0.2)
+  - OHHTTPStubs (6.0.0):
+    - OHHTTPStubs/Default (= 6.0.0)
+  - OHHTTPStubs/Core (6.0.0)
+  - OHHTTPStubs/Default (6.0.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (6.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (6.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (6.0.0)
+  - OHHTTPStubs/Swift (6.0.0):
+    - OHHTTPStubs/Default
+  - Onboard (2.3.3)
+  - PinCodeTextField (0.1.0)
+  - PopupDialog (0.6.2)
+  - PromiseKit/CorePromise (4.5.2)
+  - Raccoon (1.2.0):
+    - Alamofire (~> 4.5)
+    - AlamofireCoreData (~> 1.1)
+    - PromiseKit/CorePromise (~> 4.4)
+  - SCLAlertView (0.7.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftLint (0.25.1)
+  - SwiftyBeaver (1.5.2)
+  - "UITextField+Shake (1.2.1)"
+
+DEPENDENCIES:
+  - AlamofireActivityLogger (~> 2.4.0)
+  - AlamofireNetworkActivityIndicator (~> 2.0)
+  - Branch
+  - CCBottomRefreshControl
+  - Crashlytics (~> 3.8)
+  - Dodo (~> 9.0.1)
+  - GoogleMaps
+  - ImagePicker (~> 3.0.0)
+  - IQKeyboardManager
+  - KeychainAccess (~> 3.1.0)
+  - KIF
+  - Kingfisher (~> 4.1.0)
+  - KYNavigationProgress (~> 2.0.2)
+  - OHHTTPStubs (from `https://github.com/eman6576/OHHTTPStubs`)
+  - OHHTTPStubs/Swift (from `https://github.com/eman6576/OHHTTPStubs`)
+  - Onboard
+  - PinCodeTextField
+  - PopupDialog (~> 0.6.0)
+  - Raccoon (~> 1.2.0)
+  - SCLAlertView (= 0.7.0)
+  - SVProgressHUD
+  - SwiftLint
+  - SwiftyBeaver
+  - "UITextField+Shake (~> 1.1)"
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AlamofireActivityLogger
+    - AlamofireCoreData
+    - AlamofireNetworkActivityIndicator
+    - Branch
+    - CCBottomRefreshControl
+    - Crashlytics
+    - Dodo
+    - Fabric
+    - GoogleMaps
+    - Groot
+    - ImagePicker
+    - IQKeyboardManager
+    - KeychainAccess
+    - KIF
+    - Kingfisher
+    - KYNavigationProgress
+    - Onboard
+    - PinCodeTextField
+    - PopupDialog
+    - PromiseKit
+    - Raccoon
+    - SCLAlertView
+    - SVProgressHUD
+    - SwiftLint
+    - SwiftyBeaver
+    - "UITextField+Shake"
+
+EXTERNAL SOURCES:
+  OHHTTPStubs:
+    :git: https://github.com/eman6576/OHHTTPStubs
+
+CHECKOUT OPTIONS:
+  OHHTTPStubs:
+    :commit: 27d87167a866f92eaaf50869e4c6174ba26a1056
+    :git: https://github.com/eman6576/OHHTTPStubs
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AlamofireActivityLogger: bff49b2cde8886e1ccb929c699f915472867fdda
+  AlamofireCoreData: e7366aef23927626e8cf2f1039eaf47209c1f183
+  AlamofireNetworkActivityIndicator: aeac50e6ecb78ec71a5f1f29098bcf4ec2962910
+  Branch: 0d98d22745a9b68bcb4fa6dc1c6a92b64d4fdd7b
+  CCBottomRefreshControl: 389780b4488321c91d18f66a6da5ef9606df6de5
+  Crashlytics: aee1a064cbbf99b32efa3f056a5f458d846bc8ff
+  Dodo: de79746af0dda8e440ae0d022d1ae0e3d923a12f
+  Fabric: f8d42c893bb187326a7968b62abe55c36a987a46
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  Groot: 7543f84980bfb1613750818029d9b927d4378211
+  ImagePicker: 973953c25960fe04729a7082a56194321c6762d2
+  IQKeyboardManager: c49d59e358aeeffaa0280aa305093c2b194d2607
+  KeychainAccess: 7bd430028059754a3debab3cfc0bd1fc7fb85df3
+  KIF: 4c23b5d24dba24d3cb6dbb9c7d325b31e526ba4a
+  Kingfisher: 6793a473357b5dbee42b0068ef203fe8325f259e
+  KYNavigationProgress: a380f5016e898ea4577049cf7b41895ed2a8da5a
+  OHHTTPStubs: dbe7fc78b805b075ff74bb20922854d0dca8679b
+  Onboard: 4d6e943e20bdd6bc229df967a347dd7514bc2a6f
+  PinCodeTextField: a3c39be58bde3ed1d6888d0fb1d88b0a4a2277cc
+  PopupDialog: d4336d7274a6aa3af4cb26d8b6691510eba90cc3
+  PromiseKit: 743e497a5f505a470d3bbbf4ce0663c1268af0a4
+  Raccoon: 69c773d68b7c097ccde86030baefc4f181afc642
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftLint: ce933681be10c3266e82576dad676fa815a602e9
+  SwiftyBeaver: 85daaaa2b3ae6e31b7b55c99430e8b91dac088af
+  "UITextField+Shake": 298ac5a0f239d731bdab999b19b628c956ca0ac3
+
+PODFILE CHECKSUM: 630d28d87be5c901b717902a7f83f231b5b00de2
+
+COCOAPODS: 1.5.0

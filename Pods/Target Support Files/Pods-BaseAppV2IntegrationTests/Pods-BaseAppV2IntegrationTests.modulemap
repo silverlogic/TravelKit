@@ -1,0 +1,6 @@
+framework module Pods_BaseAppV2IntegrationTests {
+  umbrella header "Pods-BaseAppV2IntegrationTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

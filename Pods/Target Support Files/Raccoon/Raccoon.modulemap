@@ -1,0 +1,6 @@
+framework module Raccoon {
+  umbrella header "Raccoon-umbrella.h"
+
+  export *
+  module * { export * }
+}
