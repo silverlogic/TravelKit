@@ -195,7 +195,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.1137254902" green="0.1019607843" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="hvY-fi-wO9" firstAttribute="centerX" secondItem="nat-QS-7lL" secondAttribute="centerX" id="XfJ-qo-965"/>
                             <constraint firstItem="Hp4-5L-7jU" firstAttribute="bottom" secondItem="hvY-fi-wO9" secondAttribute="bottom" constant="88" id="Xk0-vt-2lQ"/>
@@ -206,7 +206,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J4h-BE-AEL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3892" y="110"/>
+            <point key="canvasLocation" x="3892" y="109.29535232383809"/>
         </scene>
         <!--Authenicate Navigation Controller-->
         <scene sceneID="DHj-YW-6r7">

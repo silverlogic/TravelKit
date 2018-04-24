@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0CBC17FBE57C2AEF634B3419 /* Pods_BaseAppV2IntegrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D53237DDD29BF2B0B73AE20E /* Pods_BaseAppV2IntegrationTests.framework */; };
+		220E5F77208F162B00C7C7A6 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220E5F76208F162B00C7C7A6 /* CameraView.swift */; };
 		224593EB208EB270007A7C08 /* Bank.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224593E9208EB270007A7C08 /* Bank.storyboard */; };
 		224593F1208EB345007A7C08 /* BankLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224593F0208EB345007A7C08 /* BankLoginViewController.swift */; };
 		224593F3208EB555007A7C08 /* AccountBalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224593F2208EB555007A7C08 /* AccountBalanceViewController.swift */; };
@@ -212,6 +213,7 @@
 /* Begin PBXFileReference section */
 		16D12F5DEE6DAEDF367F64C1 /* Pods-BaseAppV2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseAppV2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseAppV2Tests/Pods-BaseAppV2Tests.release.xcconfig"; sourceTree = "<group>"; };
 		16EB33E337672860FA736C21 /* Pods-BaseAppV2UnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseAppV2UnitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseAppV2UnitTests/Pods-BaseAppV2UnitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		220E5F76208F162B00C7C7A6 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = Views/SubViews/TravelPass/CameraView.swift; sourceTree = "<group>"; };
 		224593EA208EB270007A7C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Storyboards/Base.lproj/Bank.storyboard; sourceTree = "<group>"; };
 		224593F0208EB345007A7C08 /* BankLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BankLoginViewController.swift; path = Views/ViewControllers/TravelPass/LoginViewControllers/BankLoginViewController.swift; sourceTree = "<group>"; };
 		224593F2208EB555007A7C08 /* AccountBalanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountBalanceViewController.swift; path = Views/ViewControllers/TravelPass/AccountBalanceViewController.swift; sourceTree = "<group>"; };
@@ -499,6 +501,7 @@
 		2245940C208ED196007A7C08 /* TravelPass */ = {
 			isa = PBXGroup;
 			children = (
+				220E5F76208F162B00C7C7A6 /* CameraView.swift */,
 			);
 			name = TravelPass;
 			sourceTree = "<group>";
@@ -1979,6 +1982,7 @@
 				88FD2CE61E89CCDE002D1D00 /* UpdateProfileViewController.swift in Sources */,
 				88FDF25E1E8D534C008F5395 /* UserEndpoint.swift in Sources */,
 				8801FDDC1E71BD7900F54932 /* DynamicBinder.swift in Sources */,
+				220E5F77208F162B00C7C7A6 /* CameraView.swift in Sources */,
 				880EAE7E1EC221D40049C898 /* BaseLabel.swift in Sources */,
 				882AC6741E9D5603004F85C2 /* UIFont+Extension.swift in Sources */,
 				889F96A51FA3BA5400DD8FAA /* Paginator.swift in Sources */,
@@ -2244,7 +2248,7 @@
 					"$(PROJECT_DIR)/Pods/Crashlytics",
 				);
 				INFOPLIST_FILE = BaseAppV2/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(CONFIGURATION_BUILD_DIR)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.silverlogic.TravelKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2275,7 +2279,7 @@
 					"$(PROJECT_DIR)/Pods/Crashlytics",
 				);
 				INFOPLIST_FILE = BaseAppV2/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(CONFIGURATION_BUILD_DIR)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.silverlogic.TravelKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
